@@ -5,8 +5,12 @@ import NavigationItems from "../NavigationItems/NavigationItems";
 const toolbar = (props) => (
   <header className={calsses.Toolbar}>
     <div>MENU</div>
-    <Logo />
-    <NavigationItems />
+    <div className={calsses.Logo}>
+      <Logo />
+    </div>
+    <nav className={calsses.DesktopOnly}>
+      <NavigationItems />
+    </nav>
   </header>
 );
 

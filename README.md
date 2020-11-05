@@ -5,7 +5,7 @@
 
 ### Usage
 
-env file should look like this:
+.env file should look like this:
 
 	REACT_APP_BASE_URL = databaseName
 

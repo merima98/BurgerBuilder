@@ -18,3 +18,5 @@
 ### Packages that were installed in the project:
 
 	- npm install --save prop-types
+	- npm install --save axios
+	- npm install dotenv --save

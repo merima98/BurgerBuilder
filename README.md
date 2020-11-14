@@ -21,6 +21,7 @@
 	- npm install --save axios
 	- npm install dotenv --save
 	- npm install --save react-router-dom
+	
 	Redux:
 		- npm install --save redux
 		- npm install --save react-redux

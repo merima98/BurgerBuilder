@@ -8,6 +8,8 @@
 .env file should look like this:
 
 	REACT_APP_BASE_URL = databaseName
+	REACT_APP_API_KEY  = API_KEY
+
 
 ### Getting started
 
@@ -25,5 +27,4 @@
 	Redux:
 		- npm install --save redux
 		- npm install --save react-redux
-	
-	
+	    - npm install --save redux-thunk

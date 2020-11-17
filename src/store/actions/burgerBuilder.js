@@ -1,7 +1,6 @@
 import * as actionTypes from "./actionTypes";
 import axios from "../../axios-orders";
 const { REACT_APP_BASE_URL } = process.env;
-
 export const addIngredient = (name) => {
   return {
     type: actionTypes.ADD_INGREDIENT,

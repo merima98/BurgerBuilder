@@ -1,7 +1,6 @@
 import axios from "axios";
 
 import * as actionTypes from "./actionTypes";
-
 const { REACT_APP_API_KEY } = process.env;
 export const authStart = () => {
   return {
@@ -56,7 +55,6 @@ export const auth = (email, password, isSignup) => {
     axios
       .post(url, authData)
       .then((response) => {
-        console.log(response);
         const expirationDate = new Date(
           new Date().getTime() + response.data.expiresIn * 1000
         );

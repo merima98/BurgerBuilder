@@ -2,6 +2,7 @@
 
 📝 This repository contains React exercises followed through Udemy course on topic ''React - The Complete Guide (incl Hooks, React Router, Redux)''
 
+### https://bilder-burger-app.web.app/
 
 ### Usage
 
@@ -30,6 +31,14 @@
 	- npm install --save enzyme react-test-renderer enzyme-adapter-react-16 
 	
 	Redux:
+	
 		- npm install --save redux
 		- npm install --save react-redux
 	    - npm install --save redux-thunk
+	
+	Deploying application:
+	
+		- npm run build
+		- npm install -g firebase-tools
+		- firebase login
+		- firebase deploy

@@ -22,22 +22,3 @@
 ### Testing application:
 
     npm test
-
-### Packages that were installed in the project:
-
-    - npm install --save prop-types
-    - npm install --save axios
-    - npm install dotenv --save
-    - npm install --save react-router-dom
-    - npm install --save enzyme react-test-renderer enzyme-adapter-react-16
-
-    Redux:
-    - npm install --save redux
-    - npm install --save react-redux
-    - npm install --save redux-thunk
-
-    Deploying application:
-    - npm run build
-    - npm install -g firebase-tools
-    - firebase login
-    - firebase deploy
